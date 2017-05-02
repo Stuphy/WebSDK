@@ -1,0 +1,7 @@
+{
+  "name": "My Custom Website Name",
+  "short_name": "Website",
+  "gcm_sender_id": "732110682735",
+  "display": "standalone",
+  "gcm_user_visible_only": true
+}
