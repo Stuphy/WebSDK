@@ -1,0 +1,387 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.layout {
+  display: flex;
+  flex-direction: row;
+  /*justify-content: space-between;
+  background-image: url(./laptop@2x.jpg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: 90% center;*/
+}
+
+.subscription {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscription-content {
+  text-align: center;
+  margin: 30px;
+  padding: 25px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2baeb6;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.subscription-content-2 {
+  text-align: center;
+  margin: 30px;
+  padding: 25px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0071c5;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.white-button {
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin: 0;
+  border: none;
+  background-color: #fff;
+  color: #0071c5;
+  cursor: pointer;
+}
+
+.gift-image {
+  max-width: 100px;
+}
+
+.green-button {
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin: 0;
+  border: none;
+  background-color: #0f8786;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.first-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue-button {
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin: 0;
+  border: none;
+  background-color: #0071c5;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.side-content {
+  position: absolute;
+  height: 100vh;
+  width: 100px;
+  background-color: #ffca28;
+}
+
+.shop {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #0071c5;
+}
+
+.shop-content {
+  position: relative;
+  text-align: center;
+  margin: 30px;
+  padding: 25px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.preview {
+  max-width: 300px;
+}
+
+.button-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.buy-button {
+  margin: 0 10px;
+  background-color: #0071c5;
+  color: white;
+}
+
+.wishlist-button {
+  margin: 0 10px;
+  background-color: white;
+  border: 1px solid #0071c5 !important;
+  color: #0071c5;
+}
+
+.or {
+  color: #0071c5;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  border-radius: 20px 0 0 20px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.menu {
+  width: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+}
+.menu li {
+  list-style: none;
+  padding: 0 10px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.footer {
+  width: 100vh;
+  background-color: #0f1a23;
+  height: 50px;
+}
+
+.subscribe {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /*background: red; /* For browsers that do not support gradients */
+  /*background: -webkit-linear-gradient(left top, #f7a527, #ffca28); /* For Safari 5.1 to 6.0 */
+  /*background: -o-linear-gradient(bottom right, #f7a527, #ffca28); /* For Opera 11.1 to 12.0 */
+  /*background: -moz-linear-gradient(bottom right, #f7a527, #ffca28); /* For Firefox 3.6 to 15 */
+  /*background: linear-gradient(to bottom right, #f7a527, #ffca28); /* Standard syntax */
+  /*color: white;*/
+  /*display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;*/
+  z-index: 10;
+}
+
+.subscribe-heading {
+  background-color: white;
+  width: 90%;
+}
+.subscribe-diagonal {
+  width: 0;
+  height:0;
+  border-top: 100vh solid black; /*#ffca28*/
+  border-right: 70px solid transparent;
+}
+
+.login {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2baeb6;
+}
+
+.login-content {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 200px;
+  border-radius: 5px;
+  background-color: white;
+  color: #2baeb6;
+}
+
+.login input[type=text] {
+  border: 1px solid #2baeb6;
+  border-radius: 4px;
+  color: #2baeb6;
+  height: 30px;
+}
+
+.login input[type=Password] {
+  border: 1px solid #2baeb6;
+  border-radius: 4px;
+  color: #2baeb6;
+  height: 30px;
+}
+
+.menu-burger {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffca28;
+}
+
+.info {
+  margin-bottom: 10px;
+}
+
+.white {
+  color: white;
+  background: black;
+}
+
+.burger {
+  width: 25px;
+  height: 3px;
+  background-color: #ffca28;
+  margin: 6px 3px;
+  border-radius: 1px;
+}
+
+.send-push {
+  display: flex;
+  width: 100vw;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  background-color: #2baeb6;
+}
+
+.send-push-content {
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.push-text {
+  width: 100%;
+  height: 50px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  background: rgba(255,255,255,.4);
+}
+
+.push-text::focus {
+  border: 2px solid #0f8786;
+}
+
+.yellow-button {
+  background-color: #0f8786;
+  color: #ffffff;
+}
+
+/*
+.login-diagonal {
+  width: 0;
+  height:0;
+  border-top: 100vh solid grey; /*#ffca28*/
+ /* border-right: 70px solid transparent;
+}*/
+
+/*.heading {
+  margin: 10px;
+  padding: 10px 50px;
+  width: 90%;
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-weight: bold;
+}*/
+
+.heading h1 {
+    font-weight: bold;
+    font-size: 3em;
+  }
+.heading h2 {
+    font-weight: 700;
+    font-size: 1.2em;
+  }
+
+.controls {
+  margin: 10px;
+  padding: 20px 20px;
+  background-color: #ffca28;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*
+Wish list
+Tracking Покупки
+Реакция на действие пользователя login
+Кастомное время подписки
+*/
